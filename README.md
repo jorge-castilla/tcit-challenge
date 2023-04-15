@@ -1,4 +1,4 @@
-# TCIT-challenge
+# TCIT-Challenge
  Desafío de TCIT para postulantes. 
  
 Para ejecutar esta aplicación necesitas tener instalado en tu equipo Node y PostgreSQL.
