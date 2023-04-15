@@ -2,7 +2,7 @@
  
 Para ejecutar esta aplicación necesitas tener instalado en tu equipo Node y PostgreSQL.
 
-* Primero debes crear un archivo .env con las variables designadas en env.example, reemplazando sus valores por las del ambiente local. En caso de no tener una base de datos a utilizar, debes crearla mediante postgres.
+* Primero debes crear un archivo .env con las variables designadas en env.example, reemplazando sus valores por las del ambiente local. En caso de no tener una base de datos a utilizar, debes crearla mediante postgreSQL.
 
 * Después debes ejecutar el siguiente comando para instalar las dependencias:
 ```javascript
