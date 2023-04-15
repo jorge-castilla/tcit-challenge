@@ -1,31 +1,37 @@
-# TCIT-Challenge
- Desafío de TCIT para postulantes. 
+# TCIT-Challenge 
  
 Para ejecutar esta aplicación necesitas tener instalado en tu equipo Node y PostgreSQL.
 
-Crear archivo .env con las variables designadas en env.example, reemplazando sus valores por las del ambiente local.
+* Primero debes crear un archivo .env con las variables designadas en env.example, reemplazando sus valores por las del ambiente local.
 
-Luego debes ejecutar el siguiente comando para instalar las dependencias:
+* Después debes ejecutar el siguiente comando para instalar las dependencias:
+```javascript
 npm install
+```
 
-Y los siguientes comandos para ejecutar la migración:
+* Luego ejecutar los siguientes comandos para correr la migración:
+```javascript
 cd sequelize 
 npx sequelize-cli db:migrate
 cd .. // para volver a la carpeta raiz
+```
 
-Finalmente, para iniciar el servidor debes ejecutar:
+* Para iniciar el servidor debes ejecutar:
+```javascript
 npm run dev
+```
 
-Y en tu navegador preferido debes ingresar a la siguiente URL:
-http://localhost:3000
+* Finalmente, en tu navegador preferido puedes ingresar a la siguiente URL para visualizar la aplicación:
+  * http://localhost:3000
 
-
-Si deseas levantar el ambiente de desarrollo para frontend, debes ejecutar los siguientes comandos:
+## Frontend
+* Si deseas levantar el ambiente de desarrollo para frontend, debes ejecutar los siguientes comandos:
+```javascript
 cd frontend
 npm install
 npm run dev
+```
+* Y luego dirigirte a la siguiente URL en tu navegador:
+  * http://localhost:5173/
 
-Y luego dirigirte a la siguiente URL en tu navegador:
-http://localhost:5173/
-
-Recuerda que para que funcione la aplicación correctamente, debes tener levantado el servidor.
+* Recuerda que para que funcione la aplicación correctamente, debes tener levantado el servidor.
